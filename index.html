@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>메뉴</title>
+  <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+  <!-- 손님용 모바일 메뉴 (QR로 열기). 내용은 menu.json, 편집 창이 저장할 때마다 GitHub에 다시 올림 (src/publish.js) -->
+  <header id="top">
+    <h1><img id="logo" alt="" hidden><span id="shop">메뉴</span></h1>
+    <nav id="tabs" aria-label="카테고리"></nav>
+  </header>
+  <main id="list" aria-live="polite"><p class="empty">메뉴를 불러오는 중…</p></main>
+  <script src="mobile.js"></script>
+</body>
+</html>
